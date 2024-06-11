@@ -1,0 +1,13 @@
+#footer {
+    background: brown;
+    padding: 15px;
+    color: #ffffff;
+    padding: 8px 0px 5px 0px;
+    background: linear-gradient(to left, brown 50%, Green 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+#footer:hover {
+    color: #ffffff;
+    background-position: left;
+}

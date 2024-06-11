@@ -1,0 +1,113 @@
+#mainheader {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+    max-height: 140px;
+    -webkit-transition: top .5s ease-in-out;
+    transition: top .5s ease-in-out;
+    -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, .16);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, .16);
+}
+
+.header {
+    display: block;
+    background-color: #17388D;
+}
+
+.header>.container {
+    display: flex;
+    -webkit-box-pack: end;
+    /* justify-content: flex-end; */
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header_btn {
+    display: block;
+    width: 139px;
+    max-width: 315px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    border-radius: 30px;
+}
+
+.header_icon {
+    padding-right: 10px;
+}
+
+.subheader {
+    display: block;
+    background-color: #ffffff;
+}
+
+.subheader>.container {
+    box-shadow: none;
+    height: auto;
+    /* background-color: #ffffff; */
+    height: 60px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+
+.subheadertext {
+    height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Figtree', sans-serif;
+    padding: 8px;
+}
+
+
+.Contact {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    border-radius: 30px;
+    width: 100px;
+    background-color: #17388D;
+    color: #ffffff;
+    background: linear-gradient(to left, #17388D 50%, #ffffff 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+
+}
+
+.Contact:hover {
+    color: #17388D;
+    background-position: left;
+}
+
+p {
+    line-height: 1.7;
+}
+
+a {
+    font-size: 20px;
+    font-weight: 500;
+}

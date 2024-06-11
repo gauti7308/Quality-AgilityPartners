@@ -1,0 +1,139 @@
+#content {
+    /* margin-top: 140px; */
+}
+
+
+.section1 {
+    /* margin-bottom: 180px; */
+    height: 100vh;
+    background-image: url('src/assets/image/header_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    /* display: flex;
+    justify-content: center; */
+    padding: 244px 0 0 25px;
+    margin: 0;
+}
+.quotebtn{
+    background-color: red;
+    padding: 10px;
+    font-size: 18px;
+    font-weight:700;
+    color: #ffffff;
+    border-radius: 8px;
+    margin: 50px 0 0 30px;
+    background: linear-gradient(to left, red 50%, #ffffff 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.quotebtn:hover {
+    color: red;
+    background-position: left;
+}
+
+.section1+.section8 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-bottom: 120px;
+}
+
+.h1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    /* justify-content: center; */
+    font-family: Roboto;
+    white-space: nowrap;
+    height: 113px;
+    /* text-align: center; */
+    line-height: 82px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    text-transform: lowercase;
+    height: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: normal;
+    text-align: inherit;
+    line-height: 81px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.section2 {
+    background-color: #231834;
+    height: 40%;
+}
+.section3 {
+    margin-top: 10px;
+}
+.section4 {
+    display: flex;
+    margin-top: 10px;
+}
+.section5 {
+    display: flex;
+    margin-top: 10px;
+}
+.section6 {
+    margin-top: 10px;
+}
+.sec4div {
+    width: 33%;
+    background: #EAEEFB;
+    margin-right:20px;
+    padding: 10px;
+}
+.sec5div {
+    width: 33%;
+    background: #ffffff;
+    margin-right:20px;
+    padding: 10px;
+}
+.tbltxt1 {
+    display: flex;
+    justify-content: center;
+    color: #17388D;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.tbltxt2 {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.tbltxtcontent {
+    display: flex;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.tbltxtLearmore {
+    display: flex;
+    justify-content: end;
+    color: red;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s ease-out;
+}
+.tbltxtLearmore:hover {
+    color: #17388D;
+    font-size: 16px;
+}
